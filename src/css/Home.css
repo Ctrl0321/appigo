@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+
+.landing-header{
+    height: 70vh;
+    /* background-color: rgb(246, 250, 249); */
+    background: white;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+} 
+.food-image{
+    transform: rotate(131.214deg);
+    flex-shrink: 0; 
+    border-radius: 262px; 
+    position: absolute;
+    /* top: -1006PX; */
+    top: -850px;
+    right: -25%;
+    width: 90%;
+    height: 220%;
+     
+}
+
+.wording{
+    text-align: LEFT; 
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    line-height: 78px;
+    padding: 6%;
+}
+.market-place{
+    font-weight: 300;
+    margin-bottom: -40px;
+}
+.market-place span{
+    font-weight: 500;
+    color: #FEAD41;
+}
+ h2 .dot{
+    font-size: small;
+    color: black;
+   
+}
+.restaurants{
+    margin-top: 70px
+}
+
+.restaurants h1{
+  color: #FEAD41;
+  text-align: left;
+  padding-left: 7rem;
+  font-size: 2rem;
+}
+.rest-cards{
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-left: 6%;
+   
+}
+/* # tv */
+@media only screen and (min-width: 1700px){
+    .food-image{
+        transform: rotate(131.214deg);
+        flex-shrink: 0; 
+        border-radius: 262px; 
+        position: absolute;
+        /* top: -1006PX; */
+        top: -1000px;
+        right: -25%;
+        width: 90%;
+        height: 190%;
+    }
+
+}
+
+/* # Mobile */
+@media only screen and (max-width: 768px){
+    .landing-header{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .food-image{
+        transform: rotate(131.214deg);
+        flex-shrink: 0; 
+        border-radius: 50%; 
+         position: absolute; 
+         top: -263PX;
+        right: -136PX; 
+        width: 150%;
+        height: 70%;
+    }
+    .wording{
+        text-align: LEFT; 
+        font-family: 'Inter', sans-serif;
+        font-size:25px;
+        line-height: 78px;
+        padding: 3%;
+        line-height: 58px;
+        margin-bottom: 30px;
+    }
+    .market-place{
+        font-weight: 300;
+        margin-bottom: -4px;
+    }
+    h2 .dot{
+        font-size: x-small;
+        color: black;
+       
+    }
+    .Discover{
+        margin-top: -10px;
+    }
+    .restaurants h1{
+        color: #FEAD41;
+        text-align: center;
+        padding: 0;
+      }
+      .rest-cards{
+        display:  flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-left: 0;
+        margin: auto;
+       
+    }
+         
+}
+
+/* Tablet
+@media only screen and (min-width: 768px) {
+
+} */
