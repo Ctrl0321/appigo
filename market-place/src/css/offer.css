@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  .logos{
+    overflow: hidden;
+    padding: 60px 0;
+    white-space: nowrap;
+    position: relative;
+
+  }
+
+   @keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+} 
+
+.logos-slide {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    animation-name: slide;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    perspective: 100px;
+}
+
+
+.logos-slide img{
+    height: 175px;
+    width: 300px;
+    margin: 0 20px;
+    transition: transform 1s;
+    border-radius: 20px;
+    box-shadow: 4px 4px 47px 3px rgba(0, 0, 0, 0.10);
+}
+.offer-image:hover{
+    transform: translateZ(5px);
+}
+
+.logos-slide a:hover img {
+    transform: translateZ(5px);
+}
+
+.logos:hover .logos-slide{
+    animation-play-state: paused;
+
+}
+
+.logos:before,
+.logos::after{
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), white)
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), white);
+}

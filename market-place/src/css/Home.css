@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:wght@400;500;600;700&display=swap');
+
+@keyframes crossfade {
+    0% {
+      opacity: 0;
+    }
+   
+    100% {
+      opacity: 1;
+    }
+  }
+
+.landing-header{
+    height: 80vh;
+    /* background-color: rgb(246, 250, 249); */
+    background: white;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    /* border:  2px green solid; */
+    
+} 
+.food-image{
+    /* transform: rotate(131.214deg); */
+    flex-shrink: 0; 
+    position: absolute;
+    /* top: -1006PX; */
+    /* top: -850px;
+    right: -25%; */
+    top: 0px;
+    right: 0px;
+    width: 90%;
+    height: 110%;
+    /* animation: crossfade 1s ease-in-out infinite; */
+    /* animation: crossfade 3s ease-in-out infinite; */
+    opacity: 0; /* Initially set all images to be invisible */
+    transition: opacity 1.5s ease-in;
+   
+     
+}
+.food-image.active {
+    opacity: 1; /* Only the active image should be visible */
+  }
+.imageContainer{
+    position: relative;
+    width: 50%;
+}
+
+.wording{
+    text-align: LEFT; 
+    /* font-family: 'Inter', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5rem;
+    line-height: 78px;
+    padding: 6%;
+}
+.market-place{
+    font-weight: 300;
+    margin-bottom: -40px;
+}
+.market-place span{
+    font-weight: 500;
+    color: #FEAD41;
+}
+ h2 .dot{
+    font-size: small;
+    color: black;
+   
+}
+.restaurants{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.restaurants h1{
+  color: #FEAD41;
+  text-align: left;
+  padding-left: 6%;
+  font-size: 2.5rem;
+  
+}
+.offers{
+    /* border:  2px black solid; */
+    margin-top: 0px;
+}
+.offers h1{
+    color: #FEAD41;
+    text-align: left;
+    padding-left: 6%;
+    font-size: 2.5rem;
+    margin-bottom: -7px;
+   
+  }
+.rest-cards{
+    display:  flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    margin-left: 6%;
+    margin-top: 51px;
+   
+}
+/* # tv */
+@media only screen and (min-width: 1900px){
+   .landing-header{
+    height: 60vh;
+   }
+
+}
+/* Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .landing-header{
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .food-image{
+        /* transform: rotate(131.214deg); */
+        flex-shrink: 0; 
+        /* border-radius: 262px;  */
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+        height: 50%;
+         
+    }
+    .restaurants{
+      
+        align-items:center ;
+    }
+    .restaurants h1{
+        color: #FEAD41;
+        text-align: center;
+        padding-left: 0;
+        font-size: 2rem;
+      }
+      .rest-cards{
+        display:  flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 80px;
+        margin-left: 0%;
+       
+    }
+}
+
+
+/* # Mobile */
+@media only screen and (max-width: 768px){
+    .landing-header{
+        flex-direction: column;
+        flex-direction: column-reverse;
+        height: 75vh;
+    }
+    .food-image{
+        /* transform: rotate(131.214deg); */
+        flex-shrink: 0; 
+        position: absolute; 
+        top: 0PX;
+        right: 0PX; 
+        width: 120%;
+        height: 45%;
+      
+    }
+    .wording{
+        text-align: LEFT; 
+        font-family: 'Open Sans', sans-serif;
+        font-size:25px;
+        line-height: 78px;
+        padding: 3%;
+        line-height: 58px;
+        margin-bottom: 30px;
+    }
+    .market-place{
+        font-weight: 300;
+        margin-bottom: -4px;
+    }
+    h2 .dot{
+        font-size: x-small;
+        color: black;
+       
+    }
+    .Discover{
+        margin-top: -10px;
+    }
+    .offers h1{
+        font-size: 2rem;
+        text-align: center;
+        padding: 0;
+    }
+    .restaurants h1{
+        color: #FEAD41;
+        text-align: center;
+        padding: 0;
+        font-size: 2rem;
+      }
+      .rest-cards{
+        display:  flex;
+        flex-wrap: wrap;
+        gap: 0px;
+        margin-left: 0;
+        margin: auto;
+       
+    }
+         
+}
+
