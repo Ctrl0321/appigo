@@ -27,12 +27,16 @@ padding: 15px;
     width: 33%;
 }
 .text-contact{
-    width: 190px;
+    width: 250px;
     text-align: left;
+    align-items: start;
+   
+
 }
 .contact-col {
     display: flex;
     justify-content:center ;
+    
 }
 .social-links{
     display: flex;
@@ -45,6 +49,17 @@ padding: 15px;
 }
 .social-links svg:hover{
     color: #fec06d;
+}
+.contact-cont{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+   
+}
+.contact-cont svg{
+    color: white;
+    margin-right: 13px;
+  
 }
 
   /* # Mobile */
@@ -63,6 +78,15 @@ padding: 15px;
 }
 .social-col{
     margin-bottom: 18px;
+}
+.text-contact{
+    width: 350px;
+}
+.contact-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
     
     }
