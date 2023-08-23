@@ -2,7 +2,7 @@
 
 .card-container{
     background-color: green;
-    width: 272px;
+    max-width: 282px;
     height: 347px;
     border-radius: 14px;
     /* margin: 15px 37px auto 37px; */
@@ -64,7 +64,7 @@ top:64%;
 .detail p{
     margin-left: 5px;
     color: grey;
-    font-size: 14px;
+    font-size: 12px;
 }
 .second{
     margin-top: -15px;
@@ -110,9 +110,9 @@ top:64%;
   }
 
   .cofee{
-    position: absolute;
-    background-size: c;
-    bottom: 0;
+    /* position: absolute; */
+    background-size: cover;
+    /* bottom: 0; */
     width: 100%;
     border-radius: 14px;
     height: 347px;
