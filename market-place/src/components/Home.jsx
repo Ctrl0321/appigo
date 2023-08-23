@@ -1,10 +1,10 @@
 import {React,useState,useEffect} from 'react'
 import '../css/Home.css'
-import Food from '../assets/food3.png'
-import Food2 from '../assets/food2.png'
-import Food3 from '../assets/food1.png'
+import Food3 from '../assets/food3.svg'
+import Food2 from '../assets/food2.svg'
+import Food1 from '../assets/food1.svg'
 import Food4 from '../assets/food4.png'
-import Food5 from '../assets/food5.png'
+import Food5 from '../assets/food5.svg'
 import Food6 from '../assets/food4.png'
 import Restaurant from './Restaurant'
 import OfferRes from './OfferRes'
@@ -22,7 +22,7 @@ import spicyMango from '../assets/restaurants/spicyMango.jpg'
 import thai from '../assets/restaurants/thai.jpg'
 
 
-const foodImages = [Food,Food2,Food3,Food5];
+const foodImages = [Food1,Food2,Food3,Food5];
 const foodImages2 = [Food4,Food5,Food6];
 function Home() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
