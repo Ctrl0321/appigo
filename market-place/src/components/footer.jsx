@@ -21,7 +21,7 @@ function Footer() {
           <div className="logo-col">
             <img src=""></img>
           </div>
-          <div className="contact-col">
+          {/* <div className="contact-col">
             <div className="text-contact">
               <h2>Contact Us</h2>
               <div className="contact-cont">
@@ -41,7 +41,7 @@ function Footer() {
               </div>
 
             </div>
-          </div>
+          </div> */}
           <div className="social-col">
             <h2>Follow Us</h2>
             <div className="social-links">
@@ -63,7 +63,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="row-two">@ All Rights Reserved</div>
+        <div className="row-two"> &#169; All Rights Reserved</div>
       </footer>
     </>
   );
