@@ -1,7 +1,7 @@
 import React from 'react'
 import offer1 from "../assets/offer1 .jpg";
-import offer2 from "../assets/offer2 .jpg";
-import offer3 from "../assets/offer3 .jpg";
+import offer2 from "../assets/offer2.jpg";
+import offer3 from "../assets/offer3.jpg";
 import "../css/offer.css";
 
 function OfferRes() {
