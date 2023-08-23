@@ -112,7 +112,7 @@ function Home() {
       <Restaurant
        name="BreadTalk"
       image={BreadTalk}
-      place="Kolpity"
+      place="Colpetty"
       time="8.00AM - 10.00PM"
       isDelivery="false"
       websiteUrl="https://breadtalksl.appigo.co/"/>
@@ -126,7 +126,7 @@ function Home() {
       <Restaurant
       image={mangoTree}
       name="Mango Tree"
-      place="Kolpity"
+      place="Colpetty"
       time="8.00AM - 10.00PM"
       isDelivery="true"
       websiteUrl="https://themangotree.appigo.co/"/>
@@ -175,7 +175,7 @@ function Home() {
         <Restaurant
       image={thai}
       name="Thai Cuisine"
-      place="Kolpity"
+      place="Colpetty"
       time="8.00AM - 10.00PM"
       isDelivery="false"
       websiteUrl="https://thaicuisine.appigo.co/webstore-v2/"/>
