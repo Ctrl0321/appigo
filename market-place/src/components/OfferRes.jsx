@@ -9,7 +9,7 @@ function OfferRes() {
     <div className="logos">
       <div className="logos-slide">
         <a
-          href="https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=635s"
+          href=""
           target="_blank"
         >
          <img className='offer-image' src={offer1} />
@@ -20,7 +20,7 @@ function OfferRes() {
       <div className="logos-slide">
         <a
           className="link"
-          href="https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=635s"
+          href=""
           target="_blank"
         >
           <img className='offer-image' src={offer1} />
@@ -31,7 +31,7 @@ function OfferRes() {
       <div className="logos-slide">
         <a
           className="link"
-          href="https://www.youtube.com/watch?v=nAjR0Oj0J8E&t=635s"
+          href=""
           target="_blank"
         >
           <img className='offer-image' src={offer1} />
