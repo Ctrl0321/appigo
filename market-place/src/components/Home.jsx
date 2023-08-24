@@ -1,25 +1,25 @@
 import {React,useState,useEffect} from 'react'
 import '../css/Home.css'
-import Food3 from '../assets/food3.svg'
-import Food2 from '../assets/food2.svg'
-import Food1 from '../assets/food1.svg'
+import Food3 from '../assets/food3.png'
+import Food2 from '../assets/food2.png'
+import Food1 from '../assets/food1.png'
 import Food4 from '../assets/food4.png'
-import Food5 from '../assets/food5.svg'
+import Food5 from '../assets/food5.png'
 import Food6 from '../assets/food4.png'
 import Restaurant from './Restaurant'
 import OfferRes from './OfferRes'
 import Footer from './footer'
-import BreadTalk from '../assets/restaurants/breadTalk.svg'
-import EnglishCake from '../assets/restaurants/englishCake.svg'
-import ichiban from '../assets/restaurants/ichiban.svg'
-import jackTree from '../assets/restaurants/jackTree.svg'
-import kottuLabs from '../assets/restaurants/kottuLabs.svg'
-import malayRes from '../assets/restaurants/malayRestaurant.svg'
-import mangoTree from '../assets/restaurants/mangoTree.svg'
-import pagesAndCoffee from '../assets/restaurants/pages_coffee.svg'
-import potBiriyani from '../assets/restaurants/potBiriyani.svg'
-import spicyMango from '../assets/restaurants/spicyMango.svg'
-import thai from '../assets/restaurants/thai.svg'
+import BreadTalk from '../assets/restaurants/breadTalk.jpg'
+import EnglishCake from '../assets/restaurants/englishCake.jpg'
+import ichiban from '../assets/restaurants/ichiban.jpg'
+import jackTree from '../assets/restaurants/jackTree.jpg'
+import kottuLabs from '../assets/restaurants/kottuLabs.jpg'
+import malayRes from '../assets/restaurants/malayRestaurant.jpg'
+import mangoTree from '../assets/restaurants/mangoTree.jpg'
+import pagesAndCoffee from '../assets/restaurants/pages_coffee.jpg'
+import potBiriyani from '../assets/restaurants/potBiriyani.jpg'
+import spicyMango from '../assets/restaurants/spicyMango.jpg'
+import thai from '../assets/restaurants/thai.jpg'
 import Logo from '../assets/RestoHub.svg'
 
 
@@ -59,7 +59,7 @@ function Home() {
          
          <div className="wording">
             <img className='logo-restoHub' src={Logo} alt='Logo-RestToHub'></img>
-            <h2 className='Discover'> DISCOVER <br/> YOUR FAVOURITE <br/>RESTAURANTS NEARBY</h2>
+            <h2 className='Discover'>  Explore top restaurants, <br/> access exclusive deals!<br/><span>Sri Lankan's first restaurant hub</span></h2>
          </div>
          
          {/* <img className="food-image" src={foodImages[currentImageIndex]} alt="Food" /> */}
