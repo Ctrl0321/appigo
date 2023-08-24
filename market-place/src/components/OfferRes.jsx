@@ -14,31 +14,54 @@ function OfferRes() {
         >
          <img className='offer-image' src={offer1} />
         </a>
+        <a href="https://kottulabs.appigo.co/webstore/?session=1692860297361"
+          target="_blank">
         <img className='offer-image' src={offer2} />
+        </a>
+        <a href="https://kottulabs.appigo.co/webstore/?session=1692860297361"
+          target="_blank">
         <img className='offer-image' src={offer3} />
+        </a>
+       
+        
       </div>
       <div className="logos-slide">
         <a
-          className="link"
           href=""
           target="_blank"
         >
-          <img className='offer-image' src={offer1} />
+         <img className='offer-image' src={offer1} />
         </a>
+        <a href="https://kottulabs.appigo.co/webstore/?session=1692860297361"
+          target="_blank">
         <img className='offer-image' src={offer2} />
+        </a>
+        <a href="https://kottulabs.appigo.co/webstore/?session=1692860297361"
+          target="_blank">
         <img className='offer-image' src={offer3} />
+        </a>
+       
+        
       </div>
       <div className="logos-slide">
         <a
-          className="link"
           href=""
           target="_blank"
         >
-          <img className='offer-image' src={offer1} />
+         <img className='offer-image' src={offer1} />
         </a>
+        <a href="https://kottulabs.appigo.co/webstore/?session=1692860297361"
+          target="_blank">
         <img className='offer-image' src={offer2} />
+        </a>
+        <a href="https://kottulabs.appigo.co/webstore/?session=1692860297361"
+          target="_blank">
         <img className='offer-image' src={offer3} />
+        </a>
+       
+        
       </div>
+      
     </div>
   )
 }
