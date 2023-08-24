@@ -43,13 +43,13 @@ body {
     border-radius: 20px;
     box-shadow: 4px 4px 47px 3px rgba(0, 0, 0, 0.10);
 }
-.offer-image:hover{
+/* .offer-image:hover{
     transform: translateZ(5px);
-}
+} */
 
-.logos-slide a:hover img {
+/* .logos-slide a:hover img {
     transform: translateZ(5px);
-}
+} */
 
 .logos:hover .logos-slide{
     animation-play-state: paused;
@@ -74,4 +74,18 @@ body {
 .logos:after {
     right: 0;
     background: linear-gradient(to right, rgba(255,255,255,0), white);
+}
+/* # Mobile */
+@media only screen and (max-width: 768px){
+    .logos:before {
+        left: 0;
+        background:none ;
+        display: none;
+    }
+    
+    .logos:after {
+        right: 0;
+        background: none;
+        display: none;
+    }
 }
