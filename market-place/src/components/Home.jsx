@@ -20,6 +20,7 @@ import pagesAndCoffee from '../assets/restaurants/pages_coffee.svg'
 import potBiriyani from '../assets/restaurants/potBiriyani.svg'
 import spicyMango from '../assets/restaurants/spicyMango.svg'
 import thai from '../assets/restaurants/thai.svg'
+import Logo from '../assets/RestoHub.svg'
 
 
 const foodImages = [Food1,Food2,Food3,Food5];
@@ -57,7 +58,7 @@ function Home() {
     <div className="landing-header">
          
          <div className="wording">
-            <h2 className='market-place'><span>Market</span>place<span className='dot'>{'\u2B24'}</span></h2>
+            <img className='logo-restoHub' src={Logo} alt='Logo-RestToHub'></img>
             <h2 className='Discover'> DISCOVER <br/> YOUR FAVOURITE <br/>RESTAURANTS NEARBY</h2>
          </div>
          

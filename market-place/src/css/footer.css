@@ -27,6 +27,12 @@ color: white;
 .social-col{
     width: 33%;
 }
+.logo-col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 .text-contact{
     width: 250px;
     text-align: left;
@@ -65,6 +71,10 @@ color: white;
     margin-right: 13px;
   
 }
+.logo-footer{
+    width: 50%;
+    height:auto;
+}
 
   /* # Mobile */
   @media only screen and (max-width: 768px){
@@ -91,6 +101,10 @@ color: white;
     justify-content: center;
     align-items: center;
    
+}
+.logo-col{
+margin-top: 30px;
+margin-bottom: 30px;
 }
     
     }
