@@ -9,6 +9,7 @@ import { MdLocationOn } from "react-icons/md";
 import { MdCall } from "react-icons/md";
 import { GrMail } from "react-icons/gr";
 import Logo from '../assets/RestoHub.svg'
+import FooterLogo from '../assets/footerLogo.svg'
 
 function Footer() {
   const visitStore = (link) => {
@@ -20,7 +21,7 @@ function Footer() {
       <footer>
         <div className="row-one">
           <div className="logo-col">
-            <img  className='logo-footer' src={Logo} alt="Logo-Footer"r ></img>
+            <img  className='logo-footer' src={FooterLogo} alt="Logo-Footer"r ></img>
           </div>
           {/* <div className="contact-col">
             <div className="text-contact">
